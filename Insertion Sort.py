@@ -11,7 +11,7 @@ def insertionSort(arr):
 		arr[j + 1] = key
 
 
-arr = [12, 11, 13, 5, 6]
+arr = [7, 12, 16, 3, 4]
 insertionSort(arr)
 for i in range(len(arr)):
 	print ("% d" % arr[i])
